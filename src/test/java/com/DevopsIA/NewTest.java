@@ -11,7 +11,7 @@ public class NewTest {
 	    private WebDriver driver;		
 		@Test
 		public void testEasy() {	
-			driver.get("http://localhost:8080/rps/");  
+			driver.get("http://localhost:8080/dev/");  
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("DevOps")); 		
 		}	
